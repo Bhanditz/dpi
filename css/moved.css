@@ -1,0 +1,26 @@
+body {overflow: hidden;}
+
+img.lines,
+.illustration img.illPortrait,
+.illustration img.illLeaves,
+.illustration img.illLeftCoins,
+.illustration img.illRightCoins,
+.illustration img.illBottomLine,
+.illustration img.illFont 		{ top: -999px; }
+
+#home p.lander,
+#home #footer { top: 1999px; }
+
+#home,
+.illustration img.illFixes { opacity: 0; }
+
+#home a.Vision,
+#home a.Projects,
+#home a.Founders,
+#home a.About 		{ opacity: 0; position: relative; top: 0px; left: 350px; oveflow: hidden; }
+
+#home a.Founders,
+#home a.About 		{ left: -350px; }
+
+#content { background-position: center 35px; }
+#loader { display: block; }
