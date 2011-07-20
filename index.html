@@ -49,14 +49,13 @@
   	<!-- JQ FILES -->
 	<script type="text/javascript" src="js/lib/jquery-1.6.2.min.js"></script>
 	<script type="text/javascript" src="js/lib/jquery-ui-1.8.14.custom.min.js"></script>
-	<script type="text/javascript" src="js/lib/jquery.easing.compaibility.js"></script>
 	
 	<!-- LIGHTBOX -->
 	<script type="text/javascript" src="js/lib/jquery.lightbox-0.5.pack.js"></script>
     <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
     
-    <!-- ANIMATION -->
-    <script type="text/javascript" src="js/app.js"></script>	
+    <!-- ANIMATION -->    
+    <script type="text/javascript" src="js/app.js"></script>
 	
   </head>
   
@@ -233,14 +232,15 @@
     <div class="sidebar">
      <ul>
       <li><p>projects</p></li>
-      <li><a class="holodb" href="#" title="holoDB">HoloDB</a></li>
-      <li><a class="thedeadline" href="#" title="The Deadline">The Deadline</a></li>
+      <li><a class="holodb active" href="#projects" onclick="showProject('#holoDb')" title="holoDB">HoloDB</a></li>
+      <li><a class="thedeadline" href="#projects" onclick="showProject('#theDeadline')" title="The Deadline">The Deadline</a></li>
      </ul>
     </div> <!-- Sidebar -->
     
     
     <div id="mainContent">
     
+    <div id="holoDb" class="projectItems">
     
     <h1>HoloDB</h1>
     <p class="promo">HoloDB is application ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
@@ -288,6 +288,59 @@
       </div>
     </div>
     
+    </div> <!-- end #holoDb -->
+    
+
+   <!-- Start the Deadline -->
+    <div id="theDeadline" class="projectItems">
+    
+    <h1>The Deadline</h1>
+    <p class="promo">HoloDB is application ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+    <img src="images/projects-team.png" alt="HoloDB team" width="750" />    
+
+    <div class="teamMembers">
+    
+    <h2>The Team</h2>
+    
+    <div class="member withBorder">
+     <h3>Tobias Raeder</h3>
+     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+    </div>
+    
+    <div class="member withBorder">
+     <h3>Sebastian Gutsfeld</h3>
+     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+    </div>
+    
+    <div class="member">
+     <h3>Robin Brandt</h3>
+     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+        
+    </div> <!-- End teamMembers -->
+
+
+    <div class="aboutProject">
+    
+     <h2>About HoloDB</h2>
+     <p>HoloDB is application ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. HoloDB is application ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+</p>
+    <p>Ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.HoloDB is application ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    
+    </div> <!-- End #aboutProject -->
+    
+    <div class="imagePresent col cs-4">
+     <a href="http://www.holodb.com" title="Live Page" class="liveSite">www.holodb.com</a>
+     <a class="big lightBox" href="images/projects-holodb-big.png" title="Full Size"><strong>Big</strong><img src="images/projects-holodb.png" alt="projects-holodb" width="280" height="256" /></a>
+     
+      <div class="thumb">
+       <a href="images/project-holodb-product-small1.png" class="withPadd lightBox" title="Full size"><strong>1</strong><img src="images/projects-holodb-small.png" alt="projects-holodb-small" width="83" height="83" /></a>
+       <a href="images/projects-small-2nd-big.png" class="withPadd lightBox" title="Full Size"><strong>2</strong><img src="images/projects-small-2nd.png" alt="projects-small-2nd" width="83" height="83" /></a>
+       <a href="images/projects-holodb-3big.png" class="lightBox" title="Full Size"><strong>3</strong><img src="images/projects-holodb-small3.png" alt="projects-holodb-small" width="83" height="83" /></a>
+      </div>
+    </div>
+
+    </div> <!-- End #theDeadline -->
      
     </div> <!-- #mainContent -->
     
@@ -481,7 +534,7 @@
 
 
 
-
+	<div class="clearfix"></div>
 
   </body>
 </html>

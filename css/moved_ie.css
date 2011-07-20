@@ -1,0 +1,20 @@
+
+img.lines,
+.illustration img.illPortrait,
+.illustration img.illLeaves,
+.illustration img.illLeftCoins,
+.illustration img.illRightCoins,
+.illustration img.illBottomLine,
+.illustration img.illFont,
+.illustration img.illFixes 		{ top: -999px; }
+
+#home p.lander,
+#home #footer { top: 1999px; }
+
+#home,
+.illustration img.illFixes { opacity: 1; display: block; }
+
+#home a.Vision,
+#home a.Projects,
+#home a.Founders,
+#home a.About 		{ opacity: 1; position: relative; top: 0px; left: -2000px; oveflow: hidden; }

@@ -24,3 +24,9 @@ button, strong.button input{ width: auto; overflow: visible; line-height: 1; }
   .button input{ margin: 0; }
 
 /* ##### SITE SPECIFIC RULES BELOW ##### */
+   #home{ background: url(../images/layout/bg-other-pages-ie8.png) repeat-x; height: 500px;}
+    #projects { background: url(../images/layout/bg-other-pages-ie8.png) repeat-x; }
+    #vision { background: url(../images/layout/bg-other-pages-ie8.png) repeat-x; }
+    #about { background: url(../images/layout/bg-other-pages-ie8.png) repeat-x; }
+    #founders { background: url(../images/layout/bg-other-pages-ie8.png) repeat-x; }
+

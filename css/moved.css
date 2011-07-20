@@ -1,4 +1,5 @@
 body {overflow: hidden;}
+body { background: url("../images/layout/bg-other-pages.png") repeat-x scroll 0 0 transparent; }
 
 img.lines,
 .illustration img.illPortrait,
@@ -12,7 +13,7 @@ img.lines,
 #home #footer { top: 1999px; }
 
 #home,
-.illustration img.illFixes { opacity: 0; }
+.illustration img.illFixes { opacity: 0; display: none; }
 
 #home a.Vision,
 #home a.Projects,
@@ -22,5 +23,4 @@ img.lines,
 #home a.Founders,
 #home a.About 		{ left: -350px; }
 
-#content { background-position: center 35px; }
 #loader { display: block; }

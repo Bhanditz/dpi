@@ -1,0 +1,16 @@
+#home,
+#home p.lander,
+#home #footer,
+#home a.Vision,
+#home a.Projects,
+#home a.Founders,
+#home a.About					{ opacity: 1; position: static; oveflow: auto; }
+
+img.lines 						{ top: 0px; }
+.illustration img.illFixes 		{ left: 96px; top: 75px; }
+.illustration img.illPortrait 	{ left: 36px; top: 16px; }
+.illustration img.illLeaves 	{ left: 0px; top: 13px ; }
+.illustration img.illLeftCoins 	{ left: 58px; top: 318px; }
+.illustration img.illRightCoins { left: 334px; top: 323px; }
+.illustration img.illBottomLine { left: 49px; top: 370px; }
+.illustration img.illFont 		{ left: 79px; top: 407px; }

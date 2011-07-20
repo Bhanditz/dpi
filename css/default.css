@@ -169,6 +169,8 @@ h4{}
    .header { position: absolute; display: block; top: 0; left: 50%; width: 964px; height: 180px; margin-left: -482px ; }
 
 /*     Projects    */
+  #holoDb { display: ; }
+  #theDeadline { display: none; }
 
   #projects { display: none; }
   #projects { background: url(../images/layout/bg-other-pages.png) repeat-x; }
@@ -244,9 +246,13 @@ h4{}
         .sidebar li { border-bottom: 1px solid #c2b791; }
         .sidebar a.holodb { display: block; background: url(../images/sidebar-sprite.png) no-repeat; text-indent: -9999px; background-position: -68px 12px; padding: 35px 0px; }
         .sidebar a.holodb:hover { background-position: -206px 12px; }
+        /* ADDED BY DEJAN, EDIT LINE BELOW */
+        .sidebar a.holodb.active { background-position: -206px 12px; }
         
         .sidebar a.thedeadline { display: block; background: url(../images/sidebar-sprite.png) no-repeat; text-indent: -9999px; background-position: -70px -100px; padding: 35px 0px; }
         .sidebar a.thedeadline:hover { background-position: -210px -100px; }
+        /* ADDED BY DEJAN, EDIT LINE BELOW */
+        .sidebar a.thedeadline.active { background-position: -210px -100px; }
 
        #projects #mainContent { float: left; width: 750px; margin: 180px 0 25px 28px; }
        
