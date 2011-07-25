@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>horizontal</key>
+	<array/>
+	<key>horizontal-locked</key>
+	<array/>
+	<key>vertical</key>
+	<array>
+		<integer>449</integer>
+		<integer>477</integer>
+		<integer>527</integer>
+		<integer>555</integer>
+		<integer>605</integer>
+		<integer>633</integer>
+		<integer>683</integer>
+		<integer>711</integer>
+		<integer>761</integer>
+		<integer>789</integer>
+		<integer>839</integer>
+		<integer>867</integer>
+		<integer>917</integer>
+		<integer>945</integer>
+		<integer>995</integer>
+		<integer>1023</integer>
+		<integer>1073</integer>
+		<integer>1101</integer>
+		<integer>1151</integer>
+		<integer>1179</integer>
+		<integer>1229</integer>
+		<integer>1257</integer>
+		<integer>1307</integer>
+		<integer>1335</integer>
+		<integer>1385</integer>
+		<integer>1412</integer>
+	</array>
+	<key>vertical-locked</key>
+	<array/>
+</dict>
+</plist>
