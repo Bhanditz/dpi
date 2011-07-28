@@ -264,7 +264,7 @@ h4{}
         .previous a:hover { background-position: 0 -44px; }
         .previous a:active { background-position: 0 -88px; }
         
-        #projects h1 { font-family: 'UltraRegular'; font-size: 60px; margin: 5px 0 10px; line-height: 1; text-align: center; color: #173505; text-shadow: 0 6px 0 #af9984; }
+        #projects h1 { font-family: 'UltraRegular'; font-size: 60px; margin: 5px 0 10px; line-height: 1; text-align: center; color: #173505; text-shadow: 0 6px 0 #af9984; background:url(../images/test.png) ; }
         #projects p.promo { font-size: 18px; color: #173505; line-height: 1.2; margin: 0; text-align: center; }
         
        .aboutProject { float: left; width: 438px; }
